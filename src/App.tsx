@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/Portfolio">
         <main className="pt-16 bg-background min-h-screen"> {/* Add padding-top (adjust pt-16 to match header height) */}
           <Routes>
             <Route path="/" element={<Index />} />
